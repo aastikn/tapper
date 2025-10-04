@@ -108,7 +108,7 @@ class _MainPageState extends State<MainPage> {
             _isBreak = !_isBreak;
             _currentDuration =
                 (_isBreak ? _breakDuration : _pomodoroDuration) * 60;
-            _player.play(UrlSource('https://www.soundjay.com/buttons/beep-07.wav'));
+                                                            _player.play(AssetSource('beep.wav'));
             _startTimer();
           }
         });
